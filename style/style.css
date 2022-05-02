@@ -82,13 +82,16 @@ main{
     width: 328px;
     height: 68px;
     cursor: pointer;
-    border: none;
-    background:#0A3871;
-    color:#D8DFE8;
     font-family: "Inter",sans-serif;
     font-weight: 400;
     font-size: 16px;
     border-radius: 1.2rem;
+    border: none;
+}
+
+.btn .cripto{
+    background:#0A3871;
+    color: #D8DFE8;
 }
 
 .btn .descript{
@@ -107,10 +110,10 @@ main{
 
 .mostrar-text .container{
     width: 100%;
-    height: 80vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
     border-radius: 2rem; 
@@ -122,11 +125,21 @@ main{
     align-items: center;
     font-family: "Inter",sans-serif;
 }
+.mostrar-text h2{
+    color:#495057;
+    font-family: "Inter",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
 
 .mostrar-text .textos h2{
     text-align: center;
+    margin-bottom: 1rem;
+    color: #495057;
 }
 
 .mostrar-text .textos p{
     text-align: center;
+    color: #495057;
 }
