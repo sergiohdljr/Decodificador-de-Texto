@@ -12,7 +12,6 @@ var textoPadrao = `
         criptografar ou Descriptografar.
       </p>
     </div>
-  
   </div>
 </div>`
 
