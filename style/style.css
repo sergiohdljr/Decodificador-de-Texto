@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+/* Cores*/
+
+:root{
+    --branco: #FFFFFF;
+    --azul-escuro-100: #609ED4;
+    --azul-escuro-200: #356EA9;
+    --azul-escuro-300: #0A3871;
+    --azul-escuro-400: #072B61;
+    --azul-claro-100:#F3F5FC;
+    --azul-claro-200: #EFF1FA;
+    --azul-claro-300:#E9ECF8;
+    --azul-claro-400:#AAB2D5;
+    --azul-claro-500:#757FB2;
+    --cinza-100:#CED4DA;
+    --cinza-200:#ADB5BD;
+    --cinza-300:#868E96;
+    --cinza-400:#868E96;
+    --cinza-500: #343A40;
+}
