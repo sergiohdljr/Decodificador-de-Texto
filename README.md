@@ -1,4 +1,6 @@
-# Decodificador-de-Texto
+# [ATUALMENTE ESTOU REFAZENDO ]
+
+## Decodificador-de-Texto
  Challenge Alura Decodificador de Texto 
  
 A partir dos conhecimentos do Curso Logica de programação, e com conhecimentos prévios em HTML e CSS cheguei a conclusão do desafio, pórem ainda estou em processo de aprendizado e com o tempo voltarei aqui para adicionar mais coisas, ou até mesmo simplificar o código, principalmente o javaScript.
