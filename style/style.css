@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    font-family: "Inter";
 }
 
 /* Cores*/
@@ -24,4 +25,102 @@
     --cinza-300:#868E96;
     --cinza-400:#868E96;
     --cinza-500: #343A40;
+}
+body{
+    background-color:#F3F5FC;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 2rem;
+}
+
+.digite-texto{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    margin: auto 0;
+}
+
+.digite-texto-input{
+    margin-top: 3rem;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color:#0A3871;
+    background-color: transparent;
+}
+
+.digite-texto-input::placeholder{
+    color:#0A3871;
+}
+
+
+.botoes{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn{
+    width: 48%;
+    border: 1.5px #072B61 solid;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.criptografar{
+    background-color: #072B61;
+    color: #FFFFFF;
+}
+
+.descriptografar{
+    background-color: #d8d8d8;
+    color: #0A3871;
+}
+
+.mensagem{
+    width: 30%;
+    height: 90%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    gap: 1rem;
+}
+
+.garoto-lupa{
+    width: 80%;
+}
+
+.aviso-titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #343A40;
+}
+
+.mensagem-texto{
+    text-align: center;
+    color: #495057;
 }
