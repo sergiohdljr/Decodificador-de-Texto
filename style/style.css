@@ -71,19 +71,22 @@ header{
     color:#0A3871;
 }
 
-
 .botoes{
     height: 3rem;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .btn{
     width: 48%;
-    border: 1.5px #072B61 solid;
+    border: none;
+    outline: none;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 70%;
 }
 
 .criptografar{
@@ -122,5 +125,9 @@ header{
 
 .mensagem-texto{
     text-align: center;
+    color: #495057;
+}
+
+.mensagem-input{
     color: #495057;
 }

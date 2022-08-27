@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  header {
+    width: 85%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-start;
+  }
+
+  .logo {
+    width: 31px;
+    height: 31px;
+  }
+
+  .digite-texto {
+    width: 85%;
+  }
+
+  .digite-texto-input{
+    margin-top: 1rem;
+  }
+
+  .mensagem {
+    width: 85%;
+    height: 40%;
+  }
+
+  .garoto-lupa {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+
+    main{
+        width: 100%;
+    }
+
+    header {
+    width: 95%;
+    }
+
+    .digite-texto{
+        width: 95%;
+    }
+
+    .mensagem{
+        width: 95%;
+    }
+
+  .digite-texto-input {
+    margin-top: 0;
+  }
+}
