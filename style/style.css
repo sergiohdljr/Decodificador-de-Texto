@@ -100,6 +100,8 @@ header{
 }
 
 .mensagem{
+    padding-top: 2.5rem;
+    padding-bottom: 2.7rem;
     width: 30%;
     height: 90%;
     background-color: #FFFFFF;
@@ -130,4 +132,19 @@ header{
 
 .mensagem-input{
     color: #495057;
+}
+
+.copiar{
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    height: 2.6rem;
+    background-color: transparent;
+    border: 1px #0A3871 solid ;
+}
+
+.copiar:hover{
+    opacity: 70%;
 }

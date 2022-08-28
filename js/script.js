@@ -1,26 +1,29 @@
 (function () {
-  const input = document.querySelector(".digite-texto-input")
+  const input = document.querySelector(".digite-texto-input");
   const mensagem = document.querySelector(".mensagem");
-  const criptografar = document.querySelector(".criptografar")
-  const descriptografar = document.querySelector(".descriptografar")
+  const criptografar = document.querySelector(".criptografar");
+  const descriptografar = document.querySelector(".descriptografar");
 
-  criptografar.addEventListener('click',(e)=>{
-    e.preventDefault()
-    if(input.value){
-        const encode = btoa(input.value)
-        mensagem.innerHTML = `<p>${encode}</p>`
-    }else{
-        input.focus()
+  criptografar.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (input.value) {
+      mensagem.style.justifyContent = "space-between";
+      const encode = btoa(input.value);
+      mensagem.innerHTML = `<p>${encode}</p>`;
+      const btnCopiar = document.createElement("button");
+      btnCopiar.textContent = "Copiar";
+      btnCopiar.classList.add("copiar")
+      mensagem.appendChild(btnCopiar)
+    } else {
+      input.focus();
     }
-  })
+  });
 
-  descriptografar.addEventListener('click',(e)=>{
-    e.preventDefault()
-    if(mensagem.children.length === 1){
-        const decode = atob(mensagem.firstChild.textContent);
-        mensagem.innerHTML = `<p>${decode}</p>`;    
+  descriptografar.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (mensagem.children.length === 1) {
+      const decode = atob(mensagem.firstChild.textContent);
+      mensagem.innerHTML = `<p>${decode}</p>`;
     }
-    
-  })
-
+  });
 })();
