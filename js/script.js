@@ -3,6 +3,7 @@
   const mensagem = document.querySelector(".mensagem");
   const criptografar = document.querySelector(".criptografar");
   const descriptografar = document.querySelector(".descriptografar");
+  
 
   criptografar.addEventListener("click", (e) => {
     e.preventDefault();
@@ -21,9 +22,7 @@
 
   descriptografar.addEventListener("click", (e) => {
     e.preventDefault();
-    if (mensagem.children.length === 1) {
-      const decode = atob(mensagem.firstChild.textContent);
-      mensagem.innerHTML = `<p>${decode}</p>`;
-    }
+      mensagem.innerHTML= `<p>${input.value}</p>`;
+      mensagem.style.justifyContent = "center";
   });
 })();
