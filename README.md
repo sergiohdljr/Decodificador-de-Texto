@@ -1,11 +1,11 @@
-#[PROJETO REFEITO]
+# [PROJETO REFEITO]
 
-##Ajustes:
+## Ajustes:
 
--Cores corretas
--Layout Responsivo para todos dispositivos
--melhora no código javascript
--Deploy do projeto : https://sergiohdljr.github.io/Decodificador-de-Texto/
+- Cores corretas
+- Layout Responsivo para todos dispositivos
+- melhora no código javascript
+- Deploy do projeto : https://sergiohdljr.github.io/Decodificador-de-Texto/
 
 
 ## Decodificador-de-Texto
