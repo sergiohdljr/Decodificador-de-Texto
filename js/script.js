@@ -22,7 +22,6 @@
 
   descriptografar.addEventListener("click", (e) => {
     e.preventDefault();
-      mensagem.innerHTML= `<p>${input.value}</p>`;
-      mensagem.style.justifyContent = "center";
+      mensagem.firstElementChild.textContent = `${input.value}`;
   });
 })();
